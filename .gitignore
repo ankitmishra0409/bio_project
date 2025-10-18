@@ -47,3 +47,14 @@ desktop.ini
 .vscode/
 .idea/
 *.swp
+
+# Jupyter specific
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_metadata
+.jupyter/migrated
+*.nbconvert.ipynb
+
+# Notebook output cells
+**/.ipynb_output/
+**/*_files/
