@@ -1,0 +1,31 @@
+# Ignore data and output folders
+data/
+results/
+*.csv
+*.xlsx
+*.zip
+*.gz
+*.bam
+*.fastq
+*.sam
+*.log
+
+# Ignore Python cache and virtual envs
+__pycache__/
+*.pyc
+.env/
+env/
+venv/
+.venv/
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore Conda environments
+envs/
+*.yml~
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+desktop.ini
