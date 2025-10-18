@@ -20,6 +20,7 @@ venv/
 
 # Ignore Jupyter checkpoints
 .ipynb_checkpoints/
+*/.ipynb_checkpoints/*
 
 # Ignore Conda environments
 envs/
@@ -29,3 +30,20 @@ envs/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Ignore generated images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.tiff
+
+# Ignore notebook metadata
+.jupyter/
+.ipynb_metadata/
+*-checkpoint.ipynb
+
+# Ignore IDE settings
+.vscode/
+.idea/
+*.swp
